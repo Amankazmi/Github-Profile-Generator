@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Profile</title>
+</head>
+<body>
+    <h1>GITHUB PROFILE GENERATOR</h1>
+    <div class="search">
+        <input type="text" placeholder="enter username" size="50"><br><br>
+        <button>Click</button>
+    </div>
+    <div class="container">
+        <div class="profile_username">
+            <img id="profile_photo">
+            <h3 id="username"></h3>
+        </div>
+        <div class="follow">
+            <h3>Followers: </h3>
+            <h3 id="follower"></h3>
+            <h3>Followings: </h3>
+            <h3 id="following"></h3>
+        </div>
+        <div class="bio">
+            <h3>Bio: </h3>
+            <p id="bio"></p>
+        </div>
+        <div class="repo">
+            <h3>Repositories: </h3>
+            <h3 id="repos"></h3>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

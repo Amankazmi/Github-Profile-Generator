@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile_username {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile_username img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.follow {
+    text-align: center;
+    margin: 20px;
+}
+
+.bio {
+    text-align: center;
+    margin: 20px;
+}
+
+.repo {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0;
+}
